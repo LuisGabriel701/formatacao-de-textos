@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-planta.png" type="image/x-icon">
+    <title>Formatações de Textos</title>
+    <style>
+        mark {
+            background-color: rgb(156, 251, 203);
+        }
+        body{
+            background-color: rgb(215, 215, 215);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, temos um <b>Termo em negrito</b> usando a tag &lt;b&gt; e &lt;/b&gt; (não semântica).</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag &lt;strong&gt; e &lt;/strong&gt; (semântica).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em  itálico</i>  usando a tag &lt;i&gt; e &lt;/i&gt; (Não semantica).</p>
+    <p>Nesta frase, temos um <EM>termo em ênfase</EM> usando a tag &lt;EM&gt; e &lt;/EM&gt; (semtântica).</p>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando o ctrl + shift + p, logo em seguida escolher a opção "Wrap with abbreviation", a seguir, digitar somente a letra que representa a tag e, por fim, clicar em "ENTER". <br> Que no caso acima foi utilizado para colocar em itálico, mas essa ferramenta serve para qualquer tag!</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <MARK>um texto marcado</MARK> usando a tag &lt;MARK&gt; e &lt;/MARK&gt; (semântica). <br> Pode-se mudar a cor do destaque utilizando &lt;style&gt; e &lt;/style&gt;, caso queira mudar individualmente, o <strong>style</strong> vai estar dentro da tag &lt;MARK&gt;, <MARK>deste modo:</MARK> &lt;MARK style=backgroundcollor: Rgb(0,0,0)&gt; e &lt;/MARK&gt;; Caso queira mudar a cor de todos os termos marcados com &lt;MARK&gt;, <MARK>deste modo:</MARK> Dentro de &lt;head&gt;, usa a tag &lt;Style&gt; mark{ 
+        backgroundcollor: Rgb(0,0,0) 
+    } &lt;/Style&gt;. </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando <big>um texto grande</big> e <small>um texto pequeno</small>, usando a tag &lt;big&gt; e &lt;/big&gt; e &lt;small&gt; e &lt;/small&gt; (Respectivamente: Não semântico e semântico).</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del> um texto como excluído</del> para indicar que ele deve ser lido mas não considerado, usand a tag &lt;del&gt; e &lt;/del&gt; (semântica).</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois, usando a tag &lt;ins&gt; e &lt;/ins&gt; (semântica)</p>
+    <p>Existe também <u>o texto sublinhado</u> com a tag &lt;u&gt; e &lt;/u&gt; (Não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para coisas do tipo: x<sup>20</sup>+23x<sup>25</sup>+7=0, usando a tag &lt;sup&gt; e &lt;/sup&gt; (semântica).</p>
+    <h2>Texto subscrito</h2>
+    <p>Para coisas do tipo: H<sub>2</sub>O, usando a tag &lt;sub&gt; e &lt;/sub&gt; (semântica).</p>
+    <hr>
+</body>
+</html>
